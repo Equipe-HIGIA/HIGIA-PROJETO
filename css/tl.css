@@ -1,0 +1,83 @@
+*{
+    font-family: "Baloo Tamma 2" !important;
+    
+}
+
+
+.bgvid{
+   position: absolute;
+   top :50%;
+   left: 45%;
+   transform:translate(-50%, -50%);
+   
+}
+  
+.bgvid h1 {
+color: #d3ae87;
+font-size: 80px !important;
+}
+
+.bgvi{
+    position: absolute;
+    top :50%;
+    left: 45%;
+    transform:translate(-50%, -50%);
+ }
+   
+ .bgvi h1 {
+ color: #d3ae87;
+ font-size: 80px !important;
+ }
+ 
+
+ .sda1{
+   position: absolute; 
+   transform:translate(-90%, -90%);
+   left: 45%;
+   object-fit: fill;
+}
+
+  
+.sda1 h3 {
+color: #d3ae87;
+font-size: 80px !important;
+
+}
+
+.sda{
+   object-fit: fill;
+}
+
+.tf{
+   position: absolute; 
+   transform:translate(-90%, -89%);
+   left: 54%;
+   object-fit: fill;
+}
+
+  
+.tf h4 {
+color:  #6610f2;
+font-size: 80px !important;
+
+}
+
+
+.rt{
+   position: absolute; 
+   transform:translate(-90%, -250%);
+   left: 45%;
+   object-fit: fill;
+}
+
+  
+.rt h4 {
+color:  #6610f2;
+font-size: 80px !important;
+
+}
+
+
+.sw{
+   object-fit: fill;
+}

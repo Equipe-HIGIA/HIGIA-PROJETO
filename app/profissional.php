@@ -26,7 +26,7 @@
 
   <div class="container-md">
    
-    <form class="row g-3" method="POST" action="../backend/model/process2.php">
+    <form class="row g-3" method="POST" action="backend/model/process2.php">
        
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Senha</label>

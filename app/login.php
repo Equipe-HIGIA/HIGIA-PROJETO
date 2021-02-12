@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -34,7 +40,7 @@
    
    
 
-<form >
+<form   method="POST" action="validates_client.php">
   <div class="mb-3 ">
     <label for="exampleInputEmail1" class="form-label">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -48,13 +54,26 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     
   </div>
-  <button type="button" class="btn btn-outline-warning">Login</button>
+  <button  type="submit"class="btn btn-outline-warning">Login</button>
 </form>
    
    
+<p class="text-center text-danger">
+<?php if(isset($_SESSION['loginError'])){
+ echo $_SESSION['loginError'];
+ unset($_SESSION['loginError']); 
+}
+
+
+?>
+</p>
    
    </div>
 </div>
+
+
+
+
 
 </div>
 

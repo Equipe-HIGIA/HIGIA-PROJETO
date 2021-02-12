@@ -25,7 +25,7 @@
     
     <div class="container-md">
    
-        <form class="row g-3" method="POST" action="../backend/model/process.php">
+        <form class="row g-3" method="POST" action="backend/model/process.php">
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" name="email" class="form-control" id="inputEmail4">

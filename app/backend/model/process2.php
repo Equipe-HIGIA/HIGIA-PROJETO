@@ -4,6 +4,7 @@ require_once("../controller/connection2.php");
 
 
 $senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);
+$senha = md5($senha);
 $Primeiro_Nome = filter_input(INPUT_POST, 'Primeiro_Nome', FILTER_SANITIZE_STRING);
 $Ultimo_Nome = filter_input(INPUT_POST, 'Ultimo_Nome', FILTER_SANITIZE_STRING);
 $Cidade = filter_input(INPUT_POST, 'Cidade', FILTER_SANITIZE_STRING);

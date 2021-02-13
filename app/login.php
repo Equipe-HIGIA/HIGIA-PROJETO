@@ -31,7 +31,7 @@ session_start();
       <a type="button" class=" nav-link btn btn-outline-primary" href="login.php" role="button">Cliente</a>
       </li>
       <li class="nav-item">
-      <a type="button" class=" nav-link btn btn-outline-primary" href="login_cadastro_profissional.php" role="button">Profissionais</a>
+      <a type="button" class="  nav-link btn btn-outline-primary" href="login_profissional.php" role="button">Profissionais</a>
       </li>
       
     </ul>
@@ -40,33 +40,37 @@ session_start();
    
    
 
-<form   method="POST" action="validates_client.php">
+<form action="validates_client.php"  method="POST">
   <div class="mb-3 ">
     <label for="exampleInputEmail1" class="form-label">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <input type="password" name="senha" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     
   </div>
   <button  type="submit"class="btn btn-outline-warning">Login</button>
-</form>
-   
-   
 <p class="text-center text-danger">
-<?php if(isset($_SESSION['loginError'])){
- echo $_SESSION['loginError'];
- unset($_SESSION['loginError']); 
+<?php
+if(isset($_SESSION['loginErro'])){
+  echo $_SESSION['loginErro'];
+  unset ($_SESSION['loginErro']);
 }
 
-
 ?>
+
 </p>
+
+
+
+</form>
+   
+ 
    
    </div>
 </div>

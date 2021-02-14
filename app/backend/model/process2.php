@@ -22,6 +22,8 @@ $regiao = filter_input(INPUT_POST, 'regiao', FILTER_SANITIZE_STRING);
 $rcp = mysqli_query($conn, $resultado_cadastro_profissional);
 
 
+header("Location: msg_cadas.php");
+
 
 
 

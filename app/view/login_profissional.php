@@ -25,13 +25,18 @@ session_start();
 </head>
 <body>
  
+<div class="container d-flex justify-content-center">
+<div class="card shadow-lg">
+  
+  <div class="card-body">
+
 <form action="validates_profissional.php"  method="POST">
-  <div class="mb-3">
+  <div class="md-3">
     <label for="exampleInputEmail1" class="form-label">Email</label>
     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
-  <div class="mb-3">
+  <div class="md-3">
     <label for="exampleInputEmail1" class="form-label">Profissão</label>
     <input type="text" name="Formacao_Academica" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -55,8 +60,9 @@ if(isset($_SESSION['loginErro'])){
 
 ?>
 </form>
-
-
+</div>
+</div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </body>

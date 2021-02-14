@@ -6,7 +6,7 @@
     <title>Hígia</title>
 
 
-    <link href="css/tc.css" rel="stylesheet">
+    <link href="../css/tc.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
 
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  

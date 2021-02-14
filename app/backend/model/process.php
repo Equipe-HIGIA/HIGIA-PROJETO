@@ -18,8 +18,7 @@ $regiao = filter_input(INPUT_POST, 'regiao', FILTER_SANITIZE_STRING);
 
 $rcc = mysqli_query($conn, $resultado_cadastro_cliente);
 
-
-
+header("Location: msg_cadas.php");
 
 
 

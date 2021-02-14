@@ -6,7 +6,7 @@
     <title>Hígia</title>
 
 
-    <link href="css/tc.css" rel="stylesheet">
+    <link href="../css/tc.css" rel="stylesheet">
    
    
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
@@ -25,7 +25,7 @@
     
     <div class="container-md">
    
-        <form class="row g-3" method="POST" action="backend/model/process.php">
+        <form class="row g-3" method="POST" action="../backend/model/process.php">
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" name="email" class="form-control" id="inputEmail4">
@@ -37,10 +37,12 @@
             <div class="col-12">
               <label for="inputAddress" class="form-label">Primeiro nome</label>
               <input type="text" name="Primeiro_Nome" class="form-control" id="inputAddress" placeholder="">
+              
             </div>
             <div class="col-12">
               <label for="inputAddress2" class="form-label">Ultímo nome</label>
               <input type="text" name="Ultimo_Nome" class="form-control" id="inputAddress2" placeholder="">
+             
             </div>
             <div class="col-md-6">
               <label for="inputCity" class="form-label">Cidade</label>
@@ -64,7 +66,7 @@
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Cadastrar-Se</button>
+              <button type="submit" class="btn btn-primary" href="msg_cadas.php">Cadastrar-Se</button>
             </div>
           </form>
 

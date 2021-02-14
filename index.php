@@ -11,7 +11,7 @@
 
     <link href="css/tl.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -28,16 +28,20 @@
  
       <!--  NavBar -->
   <nav class="navbar navbar-expand-lg  text-white bg-dark text-white ">
-    <a class="navbar-brand text-white" href="/" >
-     HÍGIA</a>
+  
+    <a class="navbar-brand" href="#">
+      <img src="img/LOGO HIGIA.svg" alt=""  width="30" height="24" class="d-inline-block align-top">
+      HÍGIA
+    </a>
+  
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav text-white">
-        <a class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/login.php" role="button">Login <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link btn rounded-pill btn-outline-warning  " href="app/trasicao.php" role="button">Cadastro</a>
-        <a class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/criadores.php" role="button">Contato</a> 
+        <a class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/view/login.php" role="button">Login <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link btn rounded-pill btn-outline-warning  " href="app/view/trasicao.php" role="button">Cadastro</a>
+        <a class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/view/criadores.php" role="button">Contato</a> 
      
       </div>    
     </div>
@@ -185,15 +189,17 @@
 
     <!-- Final -->
 
+  <!-- 
       <div class="card-group bg-dark ">
        <p>
           <img src="img/LOGO EXTENDIDA HIGIA.svg" class="img-fluid" alt="Responsive image" style=" height:200px; width:400px; ">
        </p>
    </div>
 
-         <!--  -->
-
-
+          -->
+          
+          <div class="p-3 md-6 bg-dark bg-gradient text-white"><p class="fs-4 text-end ">@HÍGIA</p></div>
+         
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     

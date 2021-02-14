@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once('backend/controller/connection.php');
+include_once('../backend/controller/connection.php');
 
 
 
@@ -24,7 +24,7 @@ if(empty($resultado)){
    // $_SESSION['clienteEmail'] = $resultado['email'];
    // $_SESSION['clienteSenha'] = $resultado['senha'];
 
-    header("Location: teste.php");
+    header("Location: Tela_Principal/index.php");
 }else{
     $_SESSION['loginErro'] = 'Usuário ou senha inválida';
     header("Location: login.php");

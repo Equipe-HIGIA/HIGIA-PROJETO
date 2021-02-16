@@ -50,22 +50,22 @@ font-size: 80px !important;
 
 .tf{
    position: absolute; 
-   transform:translate(-90%, -89%);
-   left: 54%;
+   transform:translate(-90%, -1100%);
+   left: 45%;
    object-fit: fill;
 }
 
   
 .tf h4 {
 color:  #6610f2;
-font-size: 80px !important;
+font-size: 40px !important;
 
 }
 
 
 .rt{
    position: absolute; 
-   transform:translate(-90%, -250%);
+   transform:translate(-90%, -310%);
    left: 45%;
    object-fit: fill;
 }
@@ -80,4 +80,63 @@ font-size: 80px !important;
 
 .sw{
    object-fit: fill;
+}
+
+#centralizar{
+   background: transparent;
+    margin-bottom: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    
+
+}
+
+#btnmenu{
+   margin-left: 8px;
+   margin-right: 8px;
+   width: 123px;
+   height: 35px;
+   text-align: center;
+   font-size: 18px;
+}
+
+#frasemenu{
+   width: 280px;
+   float: right;
+   color: #FFC107;
+}
+
+#logohigia{
+   height: 40px;
+   width: 30px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+#btncadastro{
+   margin-bottom: 0 auto;
+   width: 300px;
+   height: 50px;
+   
+   font-size: 25px;
+  
+}
+#divbtn{
+   align-items: center;
+   margin-bottom: 20px;
+   text-align: center;
+   background: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+#copyright{
+   text-align: center;
+   color:aliceblue;
+   flex-direction: row;
+   justify-content: center;
 }

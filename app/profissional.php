@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hígia</title>
+    <title>HÍGIA - Disposicao para a Saude</title>
 
 
     <link href="css/tc.css" rel="stylesheet">

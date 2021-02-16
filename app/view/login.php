@@ -10,7 +10,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hígia</title>
+    <title>HÍGIA - Disposicao para a Saude</title>
 
     <style> *{ font-family: "Baloo Tamma 2" !important;}</style>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  

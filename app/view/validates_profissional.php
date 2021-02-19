@@ -19,13 +19,16 @@ if(empty($resultado)){
     $_SESSION['loginErro'] = 'Usuário ou senha inválida';
     header("Location: login_profissional.php");
 }elseif(isset($resultado)){
-   // $_SESSION['clienteid'] = $resultado['id'];
-   // $_SESSION['clienteNome'] = $resultado['nome'];
-   // $_SESSION['clienteNiveisAccesoId'] = $resultado['niveis_acesso_id'];
-   // $_SESSION['clienteEmail'] = $resultado['email'];
-   // $_SESSION['clienteSenha'] = $resultado['senha'];
+   
+    $_SESSION['Profissional_Primeiro_Nome'] = $resultado['Primeiro_Nome'];
+   $_SESSION['Profissional_Ultimo_Nome'] = $resultado['Ultimo_Nome'];
+    $_SESSION['ProfissionalCidade'] = $resultado['Cidade'];
+      $_SESSION['ProfissionalRegiao'] = $resultado['regiao'];
+      $_SESSION['ProfissionalFormacao'] = $resultado['Formacao_Academica'];
+      $_SESSION['ProfissionalEspecialidade'] = $resultado['Especialidade'];
 
-    header("Location: Tela_Principal/index.php");
+
+    header("Location: Tela_Principal-Profissional/index.php");
 }else{
     $_SESSION['loginErro'] = 'Usuário ou senha inválida';
     header("Location: login_profissional.php");

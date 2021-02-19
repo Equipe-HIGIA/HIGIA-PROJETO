@@ -6,9 +6,10 @@
     <title>Hígia</title>
 
 
-    <link href="../css/tc.css" rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
-
+    <style> *{ font-family: "Baloo Tamma 2" !important;}
+  </style>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
    
@@ -16,26 +17,25 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link href="vendor/bootstrap/css/bootstrap.min.css"  rel="stylesheet">
- 
+   
 
 
 </head>
-<body>
+<body class="bg-white">
     
 
 
 
-  <div class="container d-flex justify-content-center">
-  <div class="card rounded-top shadow-lg text-center ">
+  <div class="container d-flex justify-content-center position-absolute top-50 start-50 translate-middle">
+  <div class="card rounded-top shadow-lg text-center "  style="width: 35rem;">
   <h5 class="card-header">Cadastre-se já</h5>
   <div class="card-body">
     <h5 class="card-title">Ola seja e Bem vindo a tela de escolha</h5>
     <p class="card-text">Obrigado por escolhe o hígia para ajudar a melhorar a sua saúde e caso veio a divulgar e vender seus serviços obrigado.
     Agora escolha uma das opção se você  que ser um cliente ou caso você seja um profissional.
     </p>
-    <a href="cliente.php" class="btn btn-outline-secondary">cliente</a>
-    <a href="profissional.php" class="btn btn-outline-secondary">profissional</a>
+    <a href="cliente.php" class="btn btn-outline-warning">cliente</a>
+    <a href="profissional.php" class="btn btn-outline-warning">profissional</a>
   </div>
 </div>
 </div>

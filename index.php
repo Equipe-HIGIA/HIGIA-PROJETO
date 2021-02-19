@@ -23,7 +23,7 @@
 
     <title>Hígia - Disposicao para a Saude</title>
 </head>
-<body>
+<body class="bg-white">
  
       <!--  NavBar -->
   <nav class="navbar navbar-expand-md text-white bg-dark text-white " id="navbarToggleExternalContent">
@@ -37,7 +37,7 @@
       <div class="navbar-nav text-white">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/view/login.php" role="button">Login</a></li>
-        <li class="nav-item"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning  " href="app/view/cadastro.php" role="button">Cadastro</a></li>
+        <li class="nav-item"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning  " href="app/view/trasicao.php" role="button">Cadastro</a></li>
         <li class="nav-item"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/view/desenvolvedores.php" role="button">Contato</a></li> 
       </ul>
       </div>    

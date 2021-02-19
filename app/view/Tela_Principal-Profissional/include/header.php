@@ -51,13 +51,17 @@
 <?php
 
 
-echo "Primeiro Nome: ".  $_SESSION['cliente_Primeiro_Nome'];
+echo "Primeiro Nome: ".  $_SESSION['Profissional_Primeiro_Nome'];
 ?><br><?php
-echo "Ultimo Nome: ". $_SESSION['cliente_Ultimo_Nome']; 
+echo "Ultimo Nome: ". $_SESSION['Profissional_Ultimo_Nome']; 
 ?><br><?php
-echo "Cidade: ". $_SESSION['clienteCidade'];
+echo "Cidade: ". $_SESSION['ProfissionalCidade'];
 ?><br><?php
-echo "Região: ". $_SESSION['clienteRegiao']
+echo "Região: ". $_SESSION['ProfissionalRegiao']
+?><br><?php
+echo "Formação Academica: ". $_SESSION['ProfissionalFormacao']
+?><br><?php
+echo "Especialidade: ". $_SESSION['ProfissionalEspecialidade']
 ?>
 
 

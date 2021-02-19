@@ -18,11 +18,11 @@ if(empty($resultado)){
     $_SESSION['loginErro'] = 'Usuário ou senha inválida';
     header("Location: login.php");
 }elseif(isset($resultado)){
-   // $_SESSION['clienteid'] = $resultado['id'];
-   // $_SESSION['clienteNome'] = $resultado['nome'];
-   // $_SESSION['clienteNiveisAccesoId'] = $resultado['niveis_acesso_id'];
-   // $_SESSION['clienteEmail'] = $resultado['email'];
-   // $_SESSION['clienteSenha'] = $resultado['senha'];
+  
+    $_SESSION['cliente_Primeiro_Nome'] = $resultado['Primeiro_Nome'];
+   $_SESSION['cliente_Ultimo_Nome'] = $resultado['Ultimo_Nome'];
+    $_SESSION['clienteCidade'] = $resultado['Cidade'];
+      $_SESSION['clienteRegiao'] = $resultado['regiao'];
 
     header("Location: Tela_Principal/index.php");
 }else{

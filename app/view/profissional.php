@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hígia</title>
+    <title>HÍGIA - Disposicao para a Saude</title>
 
 
     <link href="../css/tc.css" rel="stylesheet">
@@ -28,6 +28,10 @@
    
     <form class="row g-3" method="POST" action="../backend/model/process2.php">
        
+        <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" name="email" class="form-control" id="inputEmail4">
+            </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Senha</label>
           <input type="password" name="senha" class="form-control" id="inputPassword4">
@@ -84,7 +88,7 @@
 
 </div>
 
-
+<a href="/index.php" class="btn">Voltar</a>
 
 
    

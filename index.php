@@ -23,11 +23,11 @@
 
     <title>Hígia - Disposicao para a Saude</title>
 </head>
-<body class="bg-white">
+<body>
  
       <!--  NavBar -->
   <nav class="navbar navbar-expand-md text-white bg-dark text-white " id="navbarToggleExternalContent">
-    <a class="navbar-brand nav-link disabled text-white" href="index.php"><img id="logohigia" src="img/logo.png"></a>
+    <a class="navbar-brand nav-link disabled text-white" href="index.html"><img id="logohigia" src="img/logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
     
       <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
         <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/view/login.php" role="button">Login</a></li>
         <li class="nav-item"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning  " href="app/view/trasicao.php" role="button">Cadastro</a></li>
-        <li class="nav-item"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/view/desenvolvedores.php" role="button">Contato</a></li> 
+        <li class="nav-item"><a id="btnmenu" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/desenvolvedores.php" role="button">Contato</a></li> 
       </ul>
       </div>    
     </div>
@@ -181,7 +181,7 @@
         <h2 alt="Responsive image">Participe dessa experiência.</h2>
       </div>
       <div id="divbtn">
-        <a id="btncadastro" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/view/cadastro.php" role="button">Cadastre-se já</a>
+        <a id="btncadastro" class="nav-item nav-link btn rounded-pill btn-outline-warning " href="app/cadastro.php" role="button">Cadastre-se já</a>
       </div>
 
     <!-- Final -->

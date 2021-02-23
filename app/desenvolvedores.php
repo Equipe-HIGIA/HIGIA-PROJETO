@@ -67,7 +67,7 @@
 
             </div>
         </div>
-        <a href="C:\wamp64\www\higia\index.html" class="btn">Voltar</a>
+        <a href="/index.php" class="btn">Voltar</a>
     </section>
   
 

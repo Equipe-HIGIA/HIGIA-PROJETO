@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hígia</title>
+    <title> <title>HÍGIA - Disposicao para a Saude</title>
+
 
 
     
@@ -30,9 +31,8 @@
   <div class="card rounded-top shadow-lg text-center "  style="width: 35rem;">
   <h5 class="card-header">Cadastre-se já</h5>
   <div class="card-body">
-    <h5 class="card-title">Ola seja e Bem vindo a tela de escolha</h5>
-    <p class="card-text">Obrigado por escolhe o hígia para ajudar a melhorar a sua saúde e caso veio a divulgar e vender seus serviços obrigado.
-    Agora escolha uma das opção se você  que ser um cliente ou caso você seja um profissional.
+    <h5 class="card-title">Obrigado por escolher o Hígia para ajuda-lo na melhoria da sua saúde.<br>
+    Escolha a opcao que melhor te atende: Cliente ou Profissional
     </p>
     <a href="cliente.php" class="btn btn-outline-warning">cliente</a>
     <a href="profissional.php" class="btn btn-outline-warning">profissional</a>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HÍGIA - Disposicao para a Saude</title>
 
 
-    <link href="../css/tc.css" rel="stylesheet">
+    <link href="css/tc.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
 
    
@@ -26,53 +26,54 @@
 
   <div class="container-md">
    
-    <form class="row g-3" method="POST" action="../backend/model/process2.php">
-       
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" name="email" class="form-control" id="inputEmail4">
+            </div>
         <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" name="email" class="form-control" id="inputEmail4">
             </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Senha</label>
-          <input type="password" name="senha" class="form-control" id="inputPassword4">
+          <input type="password" class="form-control" id="inputPassword4">
         </div>
         <div class="col-12">
-          <label for="inputAddress" class="form-label">Primeiro nome</label>
-          <input type="text" name="Primeiro_Nome" class="form-control" id="inputAddress" placeholder="">
+          <label for="inputAddress" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="">
         </div>
         <div class="col-12">
-          <label for="inputAddress2" class="form-label">Ultímo nome</label>
-          <input type="text" name="Ultimo_Nome" class="form-control" id="inputAddress2" placeholder="">
+          <label for="inputAddress2" class="form-label">Sobrenome</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="">
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">Cidade</label>
-          <input type="text" name="Cidade" class="form-control" id="inputCity">
+          <input type="text" class="form-control" id="inputCity">
         </div>
+        <div class="col-md-6">
+              <label for="inputCity" class="form-label">Região(Raio em KM de atendimento)</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">CPF</label>
-          <input type="text" name="CPF" class="form-control" id="inputZip">
+          <input type="text" class="form-control" id="inputZip">
         </div>
-        
         <div class="col-md-2">
-          <label for="inputZip" class="form-label">Formação acadêmica</label>
-          <input type="text" name="Formacao_Academica" class="form-control" id="inputZip">
+          <label for="inputZip" class="form-label">Ensino Superior</label>
+          <input type="text" class="form-control" id="inputZip">
         </div>  <div class="col-md-2">
-          <label for="inputZip" class="form-label">experiência profissional</label>
-          <input type="text" name="Experiencia_Profi" class="form-control" id="inputZip">
+          <label for="inputZip" class="form-label">Experiência Profissional</label>
+          <input type="text" class="form-control" id="inputZip">
         </div>
         <div class="col-md-2">
-          <label for="inputZip" class="form-label">especialidade</label>
-          <input type="text" name="Especialidade" class="form-control" id="inputZip">
+          <label for="inputZip" class="form-label">Especialidade</label>
+          <input type="text" class="form-control" id="inputZip">
         </div>
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" name="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-              <label for="inputCity" class="form-label">Região</label>
-              <input type="text" name="regiao" class="form-control" id="inputCity">
-            </div>
-      
         <div class="col-12">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">

@@ -1,3 +1,4 @@
+
 use sistema_cadastro_prof;
 
 
@@ -14,4 +15,5 @@ Experiencia_Profi varchar(100) not null,
 Especialidade varchar(100) not null,
 email varchar(50) not null,
 regiao varchar(100) not null
+
 );

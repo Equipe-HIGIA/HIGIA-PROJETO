@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,7 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet"> 
     
-    <link href="css/tc.css" rel="stylesheet">
+    <link href="../css/tc.css" rel="stylesheet">
     
 </head>
 <body>
@@ -68,11 +67,10 @@
 
             </div>
         </div>
-        <a href="/index.php" class="btn">Voltar</a>
+        <a href="C:\wamp64\www\higia\index.html" class="btn">Voltar</a>
     </section>
   
 
 
 </body>
-
 </html>

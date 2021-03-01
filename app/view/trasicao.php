@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+
     <title> <title>HÍGIA - Disposicao para a Saude</title>
 
 
@@ -34,7 +36,9 @@
   <h5 class="card-header">Cadastre-se já</h5>
   <div class="card-body">
 
+
     <h5 class="card-title">Obrigado por escolher o Hígia para ajuda-lo na melhoria da sua saúde.<br>
+
 
     Escolha a opcao que melhor te atende: Cliente ou Profissional
     </p>

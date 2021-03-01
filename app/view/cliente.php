@@ -57,6 +57,8 @@
               <input type="text" name="regiao" class="form-control" id="inputCity">
             </div>
           
+        
+
             <div class="col-12">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -65,6 +67,7 @@
                 </label>
               </div>
             </div>
+        
             <div class="col-12">
               <button type="submit" class="btn btn-primary" href="msg_cadas.php">Cadastrar-Se</button>
             </div>

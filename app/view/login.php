@@ -10,7 +10,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hígia</title>
+    <title>HÍGIA - Disposicao para a Saude</title>
 
     <style> *{ font-family: "Baloo Tamma 2" !important;}</style>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
@@ -20,18 +20,18 @@ session_start();
 
 
 </head>
-<body class="bg-white">
+<body>
     
 <div class="container d-flex justify-content-center">
 
-<div class=" card  shadow-lg text-center" style="width: 35rem;">
+<div class=" card  shadow-lg text-center">
   <div class="card-header">
     <ul class="nav nav-pills card-header-pills">
       <li class="nav-item">
-      <a type="button" class=" nav-link btn btn-outline-warning" href="login.php" role="button">Cliente</a>
+      <a type="button" class=" nav-link btn btn-outline-primary" href="login.php" role="button">Cliente</a>
       </li>
       <li class="nav-item">
-      <a type="button" class="  nav-link btn btn-outline-warning" href="login_profissional.php" role="button">Profissionais</a>
+      <a type="button" class="  nav-link btn btn-outline-primary" href="login_profissional.php" role="button">Profissionais</a>
       </li>
       
     </ul>
@@ -82,7 +82,7 @@ if(isset($_SESSION['loginErro'])){
 </div>
 
 
-
+<a href="/index.php" class="btn">Voltar</a>
 
 
 

@@ -49,35 +49,42 @@
 
     <!--   -->
     <div id="centralizar">
-      <!-- Videos/Img  -->  
-  <div  id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner ">
-      <div class="carousel-item active" id="bgvid">
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+  <div class="carousel-item active" data-bs-interval="10000" id="bgvid" >
      
-        <video  playsinline autoplay muted loop   >
-    <source src="video/Running - 3599.mp4" type="video/mp4">
-        </video>
-      
-      </div>
-      <div  class="carousel-item" id="bgvi"> 
-    
-        <img src="img/jonathan-borba-kCVZIbOKztI-unsplash.jpg" class="img-fluid" alt="Responsive image">
 
-    
-      
-      </div>
-      <div  class="carousel-item" id="bgv">
-        
+
+     <video  playsinline autoplay muted loop   >
+   <source src="video/Running - 3599.mp4" type="video/mp4">
+       </video>
+
+
+     
+     </div>
+     <div  class="carousel-item" data-bs-interval="10000" id="bgvi"> 
+   
+       <img src="img/jonathan-borba-kCVZIbOKztI-unsplash.jpg" class="img-fluid" alt="Responsive image">
+
+   
+     
+     </div>
+     <div  class="carousel-item" data-bs-interval="10000" id="bgv">
        
-        <img src="img/jess-eddy-nnsyyS7Of_Q-unsplash.jpg" class="img-fluid" alt="Responsive image">
+      
+     <img src="img/jess-eddy-nnsyyS7Of_Q-unsplash.jpg" class="img-fluid" alt="Responsive image">
 
       
+     </div>
 
-      </div>
+  </div>
+</div>
 
 
 
-    </div>
+
 
 
 <div class="bgvid">

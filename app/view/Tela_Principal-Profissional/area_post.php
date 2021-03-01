@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -42,47 +43,87 @@
 
 <!-- Modal -->
 <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="staticBackdropLabel">Criar Post</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <form class="was-validated">
+      <form action="models/posts.php" method="POST" enctype="multipart/form-data" class="was-validated">
 
       <div class="col-md-4">
     <label for="validationTextarea" class="form-label">Titulo</label>
-    <input type="text" class="form-control is-valid" id="validationTextarea" value="Ola mundo" required>
+    <input type="text" name="titulo" class="form-control is-valid" id="validationTextarea" placeholder="Ola mundo1" required>
     <div class="invalid-feedback">
       Por favor escreva o titulo
     </div>
   </div>
 
+  <div class="col-md-4">
+    <label for="validationTextarea" class="form-label">SubTitulo</label>
+    <input type="text" name="subtitulo" class="form-control is-valid" id="validationTextarea" placeholder="Ola mundo2" required>
+    <div class="invalid-feedback">
+      Por favor escreva o SubTitulo
+    </div>
+  </div>
+
 
   <div class="mb-3">
-    <label for="validationTextarea" class="form-label">Textarea</label>
-    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+    <label for="validationTextarea" class="form-label">Descrição inicial</label>
+    <textarea name="Area_texto" class="form-control is-invalid" id="validationTextarea" placeholder="Insira a descrição inicial" required></textarea>
     <div class="invalid-feedback">
-      Please enter a message in the textarea.
+     Por favor escreva o texto para o seu produto
     </div>
   </div>
   
 
   <div class="mb-3">
-    <input type="file" class="form-control" aria-label="file example" required>
-    <div class="invalid-feedback">Example invalid form file feedback</div>
+    <label for="validationTextarea" class="form-label">Descrição Principal</label>
+    <textarea name="area_texto_principal" class="form-control is-invalid" id="validationTextarea" placeholder="Insira a descrição principal" required></textarea>
+    <div class="invalid-feedback">
+     Por favor escreva o texto para o seu produto
+    </div>
+  </div>
+
+  <select class="form-select is-invalid" name="opcao" aria-label="Default select example">
+  <option selected>Selecione Uma das opção</option>
+  <option value="Ioga">Ioga</option>
+  <option value="Musculação">Musculação</option>
+  <option value="Treinos aeróbicos">Treinos aeróbicos</option>
+  <option value="Dança">Dança</option>
+
+  <div class="invalid-feedback">
+     Por favor escreva o texto para o seu produto
+    </div>
+
+</select>
+<br>
+
+<div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label">Preço do produto</label>
+  <input type="text" name="preco" class="form-control is-invalid" id="formGroupExampleInput" placeholder="Por favor informe o preço do produto">
+
+  <div class="invalid-feedback">
+     Por favor escreva o texto para o seu produto
+    </div>
+
+</div>
+
+
+  <div class="mb-3">
+    <input type="file" name="image" class="form-control" aria-label="file example" required>
+    <div class="invalid-feedback">Escolha uma imagem para mostrar o seu produto</div>
   </div>
 
   <div class="mb-3">
-    <button class="btn btn-primary" type="submit" >Enviar</button>
+    <button class="btn btn-primary" type="submit" name="enviar">Enviar</button>
   </div>
 </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
+        </div>
     </div>
   </div>
 </div>
@@ -96,6 +137,9 @@
 
 <div class="bordas "></div>
 </div>
+
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 

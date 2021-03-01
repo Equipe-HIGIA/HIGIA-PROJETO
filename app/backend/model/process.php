@@ -1,7 +1,6 @@
 <?php
 
 require_once("../controller/connection.php");
-require_once('util.php');
 
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 $senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);

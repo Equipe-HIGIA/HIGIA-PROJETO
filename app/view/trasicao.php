@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> <title>HÍGIA - Disposicao para a Saude</title>
+    <title>HÍGIA - Disposicao para a Saude</title>
 
 
 
@@ -44,20 +44,20 @@
 
 
 
+<button class="btn btn-primary botao-volta" onclick="volta()">Voltar</button>  </div>
+  
+<script>  
+	function volta(){
+
+		
+
+window.history.back();
+
+}
+</script>
 
 
 
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/jquery/jquery.js"></script>
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
 
 
 </body>

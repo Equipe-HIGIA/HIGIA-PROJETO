@@ -75,6 +75,7 @@ echo "Formação Academica: ". $_SESSION['ProfissionalFormacao'];
 
 </li>
    
+
     </ul>
 </div>
       <li>

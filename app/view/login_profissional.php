@@ -47,7 +47,7 @@ session_start();
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <button type="submit" class="btn btn-outline-primary">login</button>
+  <button type="submit" class="btn btn-outline-warning">login</button>
 
   <p class="text-center text-danger">
 <?php

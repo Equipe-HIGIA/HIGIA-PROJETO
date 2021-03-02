@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
 
    
+  <style> *{ font-family: "Baloo Tamma 2" !important;}</style>
+   
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     
@@ -26,45 +28,49 @@
 
   <div class="container-md">
    
-    <form class="row g-3">
+    <form  method="POST" action="../backend/model/process2.php" class="row g-3">
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
+          <input type="email" name="email" class="form-control" id="inputEmail4">
         </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="inputPassword4">
+          <input type="password" name="senha" class="form-control" id="inputPassword4">
         </div>
         <div class="col-12">
           <label for="inputAddress" class="form-label">Nome</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="">
+          <input type="text" name="Primeiro_Nome" class="form-control" id="inputAddress" placeholder="">
         </div>
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Sobrenome</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="">
+          <input type="text" name="Ultimo_Nome" class="form-control" id="inputAddress2" placeholder="">
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">Cidade</label>
-          <input type="text" class="form-control" id="inputCity">
+          <input type="text" name="Cidade" class="form-control" id="inputCity">
         </div>
         <div class="col-md-6">
-              <label for="inputCity" class="form-label">Região(Raio em KM de atendimento)</label>
-              <input type="text" class="form-control" id="inputCity">
+              <label for="inputCity" class="form-label">Região</label>
+              <input type="text" name="regiao" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Raio em KM de atendimento</label>
+              <input type="text" name="raio" class="form-control" id="inputCity">
             </div>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">CPF</label>
-          <input type="text" class="form-control" id="inputZip">
+          <input type="text" name="CPF" class="form-control" id="inputZip">
         </div>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">Ensino Superior</label>
-          <input type="text" class="form-control" id="inputZip">
+          <input type="text" name="Formacao_Academica" class="form-control" id="inputZip">
         </div>  <div class="col-md-2">
           <label for="inputZip" class="form-label">Experiência Profissional</label>
-          <input type="text" class="form-control" id="inputZip">
+          <input type="text"  name="Experiencia_Profi" class="form-control" id="inputZip">
         </div>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">Especialidade</label>
-          <input type="text" class="form-control" id="inputZip">
+          <input type="text" name="Especialidade" class="form-control" id="inputZip">
         </div>
         <div class="col-12">
           <div class="form-check">
@@ -81,8 +87,19 @@
 
 </div>
 
-<a href="/index.php" class="btn">Voltar</a>
 
+
+<button class="btn btn-primary botao-volta" onclick="volta()">Voltar</button>  </div>
+  
+<script>  
+	function volta(){
+
+		
+
+window.history.back();
+
+}
+</script>
 
    
   <!-- Bootstrap core JavaScript -->

@@ -14,15 +14,16 @@ $Experiencia_Profi = filter_input(INPUT_POST, 'Experiencia_Profi', FILTER_SANITI
 $Especialidade = filter_input(INPUT_POST, 'Especialidade', FILTER_SANITIZE_EMAIL);
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
 $regiao = filter_input(INPUT_POST, 'regiao', FILTER_SANITIZE_STRING);
+$raio = filter_input(INPUT_POST, 'raio', FILTER_SANITIZE_STRING);
 
 
 
- $resultado_cadastro_profissional = "INSERT INTO profissional ( senha, Primeiro_Nome, Ultimo_Nome, Cidade, CPF, Formacao_Academica, Experiencia_Profi, Especialidade, email, regiao)  VALUES( '$senha', '$Primeiro_Nome', '$Ultimo_Nome', '$Cidade', '$CPF', '$Formacao_Academica',  '$Experiencia_Profi',  '$Experiencia_Profi','$email', '$regiao')";
+ $resultado_cadastro_profissional = "INSERT INTO profissional ( senha, Primeiro_Nome, Ultimo_Nome, Cidade, CPF, Formacao_Academica, Experiencia_Profi, Especialidade, email, regiao, raio)  VALUES( '$senha', '$Primeiro_Nome', '$Ultimo_Nome', '$Cidade', '$CPF', '$Formacao_Academica',  '$Experiencia_Profi',  '$Experiencia_Profi','$email', '$regiao', '$raio')";
 
 $rcp = mysqli_query($conn, $resultado_cadastro_profissional);
 
 
-header("Location: msd_cadas.php");
+header("Location: msg_cadas.php");
 
 
 

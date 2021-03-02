@@ -21,10 +21,11 @@ $Area_texto = $_POST['Area_texto'];
 $subtitulo = $_POST['subtitulo'];
 $area_texto_principal = $_POST['area_texto_principal'];
 $opcao =  $_POST['opcao'];
+$opcao2 =  $_POST['opcao2'];
 $preco =  $_POST['preco'];
 
 
-$resultado_post = "INSERT INTO posts (image, titulo, Area_texto, subtitulo, area_texto_principal, opcao, preco)  VALUES('$image', '$titulo', '$Area_texto', '$subtitulo', '$area_texto_principal', '$opcao', '$preco') ";
+$resultado_post = "INSERT INTO posts (image, titulo, Area_texto, subtitulo, area_texto_principal, opcao, preco, opcao2)  VALUES('$image', '$titulo', '$Area_texto', '$subtitulo', '$area_texto_principal', '$opcao', '$preco', '$opcao2') ";
 
 
 

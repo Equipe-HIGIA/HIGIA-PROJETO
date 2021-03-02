@@ -94,10 +94,26 @@
   <option value="Dança">Dança</option>
 
   <div class="invalid-feedback">
-     Por favor escreva o texto para o seu produto
+    Selecione uma das opção
     </div>
 
 </select>
+<br>
+
+
+<select class="form-select is-invalid" name="opcao2" aria-label="Default select example">
+  <option selected>Selecione Uma das opção</option>
+  <option value="Fisioterapia">Fisioterapia</option>
+  <option value="Educação Física">Educação Física</option>
+  <option value="Quiropraxia">Quiropraxia</option>
+  <option value="Terapia Ocupacional">Terapia Ocupacional</option>
+
+  <div class="invalid-feedback">
+    Selecione uma das opção
+    </div>
+
+</select>
+
 <br>
 
 <div class="mb-3">

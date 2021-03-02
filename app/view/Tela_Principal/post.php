@@ -68,9 +68,11 @@ $chamando_post = mysqli_query($conn, "SELECT * FROM posts");
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title"><?php echo $row['titulo'];?></h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             
+        <h5 class="card-title m-2"><?php echo $row['titulo'];?></h5>
+        <p class="card-text m-2"><?php echo $row['Area_texto'];?></p>
+        <p class="badge bg-secondary m-2"><?php echo $row['opcao'];?></p>
+        <p class="badge bg-secondary m-2"><?php echo $row['opcao2'];?></p>
+         
 <!-- Modal -->
 <a class="btn btn-outline-danger m-2"  href="post_extendido.php" role="button" >
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">

@@ -35,13 +35,10 @@ session_start();
     <label for="exampleInputEmail1" class="form-label">Email</label>
     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       </div>
-  <div class="md-3">
-    <label for="exampleInputEmail1" class="form-label">Profissão</label>
-    <input type="text" name="Formacao_Academica" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
+ 
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">senha</label>
-    <input type="password" name="senha" class="form-control" id="exampleInputPassword1">
+    <label for="exampleInputPassword1" class="form-label">nome</label>
+    <input type="text" name="nome" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">

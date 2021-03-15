@@ -1,4 +1,7 @@
+<?php
+session_start();
 
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -11,37 +14,73 @@
 
   <style> *{ font-family: "Baloo Tamma 2" !important;}
   
+ 
   
   </style>
    
-
    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
   
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
 
 </head>
 <body class="bg-white">
   
+  <header>
 <?php include 'include/header.php'; ?>
-
-
-
+</header>
 <br><br>
 
-<div class="card  text-dark">
-  <img src="img/alex-mccarthy-a6FHROHuQ9o-unsplash.jpg" class="card-img" alt="..." style="height: 600px;">
-  <div class="card-img-overlay">
-    <h5 class="card-title fs-1">Card title</h5>
-    <p class="card-text fs-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     </div>
+
+
+<main>
+
+
+<div class="container-md">
+
+<div class="card rounded-3 border-warning shadow-lg mb-3 position-absolute top-50 start-50 translate-middle" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Warning card title</h5>
+    <p class="card-text">
+    
+    <?php
+echo "Nome: ".$_SESSION['clienteNome'];
+?><br><?php
+echo "CEP: ".$_SESSION['clienteCep'];
+?><br><?php
+echo "Endereço: ". $_SESSION['clienteEndereco']; 
+?><br><?php
+echo "Cidade: ". $_SESSION['clienteCidade'];
+?><br><?php
+echo "Genêro: ". $_SESSION['clienteGenero'];
+?><br><?php
+echo "Medicamento: ". $_SESSION['clienteMedicamento'];
+?><br><?php
+echo "Celular: ". $_SESSION['clienteCelular'];
+?><br><?php
+echo "Fixo: ". $_SESSION['clienteFixo'];
+?><br><?php
+echo "Horas que treina: ". $_SESSION['clienteNivel'];
+?>
+
+</p>
+  </div>
+</div>
+
 </div>
 
 
-<br><br>
+
+</main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-<script src="app.js"></script>
+
+
+
+
+
+
 
 
 </body>

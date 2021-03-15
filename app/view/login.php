@@ -42,8 +42,8 @@ session_start();
 
 <form action="validates_client.php"  method="POST">
   <div class="mb-3 ">
-    <label for="exampleInputEmail1" class="form-label">Email</label>
-    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <label for="exampleInputEmail1" class="form-label">CPF</label>
+    <input type="text" name="cpf" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   
   </div>
   <div class="mb-3">

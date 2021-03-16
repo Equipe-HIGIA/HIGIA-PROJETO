@@ -3,11 +3,7 @@
 CREATE TABLE USUARIO(
 id int primary key auto_increment,
 cpf varchar(14) not null,
-senha varchar(128) not null
-);
-
-create table profissional(
-id int primary key auto_increment,
+senha varchar(128) not null,
 nome varchar(255) not null,
 endereco varchar(255) not null,
 numero int not null,
@@ -16,17 +12,22 @@ cidade int not null,
 celular varchar(20) not null,
 fixo varchar(20),
 email varchar(255) not null,
+genero char(1)
+
+);
+
+create table profissional(
+id int primary key auto_increment,
 paginas varchar(255),
 especialidade varchar(255) not null,
 qualificacao varchar(255) not null,
 ambiente char(1),
-grupo int default(1),
+grupo int default 1,
 localatendimento char(1),
-genero char(1),
 servico text,
 raio decimal(6,2),
 idades varchar(255),
-especial char(1) default('S'),
+especial char(1) default 'S',
 usuario_id int
 );
 
@@ -34,15 +35,6 @@ alter table profissional add constraint fk_profissional_usuario foreign key (usu
 
 create table cliente(
 id int primary key auto_increment,
-nome varchar(255) not null,
-endereco varchar(255) not null,
-numero int not null,
-cep varchar(11) not null,
-cidade int not null,
-celular varchar(20) not null,
-fixo varchar(20),
-email varchar(255) not null,
-genero char(1) not null,
 nivel int,
 medicamentos varchar(255),
 usuario_id int

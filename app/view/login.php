@@ -1,9 +1,3 @@
-<?php
-
-session_start();
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -40,7 +34,7 @@ session_start();
    
    
 
-<form action="validates_client.php"  method="POST">
+<form action="../backend/controller/login.php"  method="POST">
   <div class="mb-3 ">
     <label for="exampleInputEmail1" class="form-label">CPF</label>
     <input type="text" name="cpf" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -57,9 +51,14 @@ session_start();
   <button  type="submit"class="btn btn-outline-warning">Login</button>
 <p class="text-center text-danger">
 <?php
-if(isset($_SESSION['loginErro'])){
-  echo $_SESSION['loginErro'];
-  unset ($_SESSION['loginErro']);
+session_start();
+
+
+if (isset($_SESSION['usuario']) && $_SESSION['usuario']==0) {   
+   unset($_SESSION['usuario']);  
+   echo ' <div class="alert alert-danger" role="alert">
+   Usuário e/ou senha inválidos!
+ </div>';
 }
 
 ?>

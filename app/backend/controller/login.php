@@ -12,7 +12,7 @@ if (isset($_POST['cpf']) && isset($_POST['senha'])) {
         $_SESSION["usuario"] = $usuario->id;
 
         echo "<script language='javascript' type='text/javascript'>
-        window.location.href='../../view/principal';
+        window.location.href='../../view/';
         </script>";
 
     } else {

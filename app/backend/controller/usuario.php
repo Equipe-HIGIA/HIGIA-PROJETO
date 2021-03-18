@@ -42,7 +42,7 @@ if (isset($_POST['op']) && $_POST['op']=="inc") {
         $_SESSION["usuario"] = $usuario->id;
 
         echo "<script language='javascript' type='text/javascript'>
-        window.location.href='../../view/principal';
+        window.location.href='../../view/';
         </script>";
 
     } else {

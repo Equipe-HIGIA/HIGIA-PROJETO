@@ -21,12 +21,8 @@
 <div class=" card  shadow-lg text-center" style="width: 35rem;">
   <div class="card-header">
     <ul class="nav nav-pills card-header-pills">
-      <li class="nav-item">
-      <a type="button" class=" nav-link btn btn-outline-warning" href="login.php" role="button">Cliente</a>
-      </li>
-      <li class="nav-item">
-      <a type="button" class="  nav-link btn btn-outline-warning" href="login_profissional.php" role="button">Profissionais</a>
-      </li>
+    
+    <a>Faça o login agora!</a>
       
     </ul>
   </div>

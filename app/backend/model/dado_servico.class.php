@@ -5,29 +5,29 @@ class DadosServico{
 
     public $paginas; 
     public $especialidade;
-    public $idades;
     public $qualificacao;
     public $ambiente;
-    public $servico;
-    public $localatendimento;
-    public $especial;
-    public $raio;
     public $grupo;
-    public $usuario_id;
+    public $localatendimento;
+    public $servico;
+    public $raio;
+    public $idades;
+    public $especial;
+     public $usuario_id;
   
 
 
     function Dads(){
 
-        $sql = "insert into profissional(paginas, especialidade, qualificacao, ambiente, grupo, localatendimento, servico, raio, idades, especial, usuario_id) values (:paginas, :especialidade, :qualificacao, :ambiente, :grupo, :localatendimento, :servico, :raio, :idades, :especial  ,:usuario_id)";
+        $s = "insert into profissional(paginas, especialidade, qualificacao, ambiente, grupo, localatendimento, servico, raio, idades, especial, usuario_id) values (:paginas, :especialidade, :qualificacao, :ambiente, :grupo, :localatendimento, :servico, :raio, :idades, :especial, :usuario_id)";
         $pdo = new Connection();
-        $st = $pdo->prepare($sql);
+        $st = $pdo->prepare($s);
         $st->bindParam(':paginas',$this->paginas,PDO::PARAM_STR);
         $st->bindParam(':especialidade',$this->especialidade,PDO::PARAM_STR);
         $st->bindParam(':qualificacao',$this->qualificacao,PDO::PARAM_STR);
         $st->bindParam(':ambiente',$this->ambiente,PDO::PARAM_STR);
-        $st->bindParam(':grupo',$this->cpf,PDO::PARAM_INT);
-        $st->bindParam(':localatendimento',$this->localatendimento,PDO::PARAM_STR_CHAR);
+        $st->bindParam(':grupo',$this->grupo,PDO::PARAM_INT);
+        $st->bindParam(':localatendimento',$this->localatendimento,PDO::PARAM_STR);
         $st->bindParam(':servico',$this->servico,PDO::PARAM_STR);
         $st->bindParam(':raio',$this->raio,PDO::PARAM_STR);
         $st->bindParam(':idades',$this->idades,PDO::PARAM_STR);

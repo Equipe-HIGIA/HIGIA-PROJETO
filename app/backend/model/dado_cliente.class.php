@@ -20,8 +20,7 @@ function Dadc(){
     $st->bindParam(':medicamentos',$this->medicamentos,PDO::PARAM_STR);
     $st->bindParam(':usuario_id',$this->usuario_id,PDO::PARAM_INT);
     $st->execute();  
-    $usuario_id = $pdo->lastInsertId();
- 
+    $this->usuario_id = $pdo->lastInsertId();
 
 }
 

@@ -117,10 +117,10 @@
 <div class="collapse" id="collapse2">
 <div class="card card-body border-dark">
 
-<form  action="../backend/controller/dados_servico.php" id="form2">
+<form method="POST"  action="../backend/controller/dados_servico.php" id="form2">
 <div class="mb-3">
-  <label for="idades" class="form-label">Quantas pessoas você consegue atender</label>
-  <input type="number" class="form-control" name="idades" placeholder="Digite...">
+  <label for="grupo" class="form-label">Quantas pessoas você consegue atender</label>
+  <input type="number" class="form-control" name="grupo" placeholder="Digite...">
 </div>
 
 
@@ -170,8 +170,8 @@
  </div>
 
  <div class="mb-3">
-<label for="raio" class="form-label">Idades que atende os cliene</label>
-<select class="form-select" name="raio" aria-label="Default select example">
+<label for="idades" class="form-label">Idades que atende os cliene</label>
+<select class="form-select" name="idades" aria-label="Default select example">
 
   <option selected>Selecione uma das opções</option>
   <option value="60+">60+</option>

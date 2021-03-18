@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HÍGIA</title>
+  <title>HÍGIA - Disposicao para a Saude</title>
 
 
   <style> *{ font-family: "Baloo Tamma 2" !important;}
@@ -60,7 +60,7 @@ $( function()  {
   
       <br>
    
-   <div class="form-group">
+   <div class="form-group centralizar">
    
    
    <label for="inputCity"  class="form-label">Idade</label>
@@ -80,7 +80,7 @@ $( function()  {
 
 
    <br>
-   <div class="form-group">
+   <div class="form-group centralizar">
    
    <label for="inputCity"  class="form-label">qualificação</label>
    <br>
@@ -97,7 +97,7 @@ $( function()  {
    </div>
 
    <br>
-   <div class="form-group">
+   <div class="form-group centralizar">
    
    <label for="inputCity"  class="form-label">Raio de Atuação</label>
    <br>
@@ -139,7 +139,7 @@ $( function()  {
   <div class="borda"></div>
   <br><br><br>
 
-<div class="row">
+<div class="row centralizar">
 
 <?php
 
@@ -177,7 +177,7 @@ while ($row = mysqli_fetch_array($data)) {
 ?>
 
 
-<div class="card mb-3 text-center shadow  bg-body rounded  border-secondary col-md-auto" style="max-width: 540px;">
+<div class="card mb-3 text-center shadow  bg-body rounded  border-secondary col-md-auto centralizar" style="max-width: 540px;">
    <div class="row g-0">
      <div class="col-md-4">
      <img src="../backend/model/images/" style= "height: 200px; width:200px;" >

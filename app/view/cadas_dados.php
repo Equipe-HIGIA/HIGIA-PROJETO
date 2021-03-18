@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HÍGIA</title>
+  <title>HÍGIA - Disposição para a Saude</title>
 
 
   <style> *{ font-family: "Baloo Tamma 2" !important;}
@@ -35,7 +35,7 @@
 <main>
 
 <article class="mb-4">
-<p class="text-center fs-1">Venha completar os seus dados para poder desfruir o que o higia tem a oference.</p>
+<p class="text-center fs-1">Complete seus dados para ter uma experiência completa.</p>
 
 </article>
 
@@ -44,7 +44,7 @@
  
 <div class="card  text-center  border-dark shadow" style="width: 28rem;">
   <div class="card-body">
-  Cadastro de dados de cliente, caso você queira desfruir os serviços, precisaremos saber os seus dados.
+  Cadastro para clientes que buscam por profissionais de Educacao Fisica.
   </div>
 </div>
  
@@ -57,7 +57,7 @@
 <p class=" d-flex justify-content-center  align-items-center">
 
 <button class="btn btn-outline-warning shadow-sm m-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-  Cadastro de dados 
+  Cadastro para Cliente 
 </button>
 </p>
 <div class="collapse" id="collapseExample">
@@ -65,21 +65,21 @@
 
 <form   method="POST" action="../backend/controller/dados_cliente.php" id="form1">
 <div class="mb-3">
-  <label for="nivel" class="form-label">Quantas horas você exercita</label>
-  <input type="text" class="form-control" name="nivel" placeholder="Digite...">
+  <label for="nivel" class="form-label">Horas de Atividade Fisica por dia</label>
+  <input type="text" class="form-control" name="nivel" placeholder="Horas por dia">
 </div>
 <div class="mb-3">
 <label for="medicamentos" class="form-label">Medicamentos</label>
 <select class="form-select" name="medicamentos" aria-label="Default select example">
 
   <option selected>Selecione uma das opções</option>
-  <option value="sim">Uso medicamentos</option>
-  <option value="não">Não uso medicamento</option>
+  <option value="Sim">Uso medicamentos</option>
+  <option value="Não">Não uso medicamento</option>
   
 </select>
  </div>
  <div class="col-12">
-    <button type="submit" name="enviar1" class="btn btn-primary">registrar-se</button>
+    <button type="submit" name="enviar1" class="btn btn-primary">Cadastrar-se</button>
   </div>
   </form>
 
@@ -98,7 +98,7 @@
  
 <div class="card  text-center  border-dark shadow" style="width: 28rem;">
   <div class="card-body">
- O Cadastro de serviços não é obrigatorio esse cadastro servira apenas para os profissionais que tem interesse em  registrar o seu serviço.
+ O Cadastro de Serviços não é obrigatorio. A menos que o profissional tenha interesse em divulgar seus serviços.
   </div>
 </div>
  
@@ -111,7 +111,7 @@
 <p class=" d-flex justify-content-center  align-items-center">
 
 <button class="btn btn-outline-warning shadow-sm m-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
-  Cadastro de serviço
+  Cadastro para Profissional
 </button>
 </p>
 <div class="collapse" id="collapse2">
@@ -119,32 +119,32 @@
 
 <form method="POST"  action="../backend/controller/dados_servico.php" id="form2">
 <div class="mb-3">
-  <label for="grupo" class="form-label">Quantas pessoas você consegue atender</label>
-  <input type="number" class="form-control" name="grupo" placeholder="Digite...">
+  <label for="grupo" class="form-label">Quantas pessoas voce pode atender</label>
+  <input type="number" class="form-control" name="grupo" placeholder="Quantidade de Pessoas">
 </div>
 
 
 
 <div class="mb-3">
-  <label for="paginas" class="form-label">Escolha uma pagina</label>
-  <input type="text" class="form-control" name="paginas" placeholder="Digite...">
+  <label for="paginas" class="form-label">Redes Sociais</label>
+  <input type="text" class="form-control" name="paginas" placeholder="WebSite/Facebook/Twitter/Instagram...">
 </div>
 
 <div class="mb-3">
   <label for="qualificacao" class="form-label">Qualificação</label>
-  <input type="text" class="form-control" name="qualificacao" placeholder="Digite...">
+  <input type="text" class="form-control" name="qualificacao" placeholder="Sua qualificação profissional.">
 </div>
 
 <div class="mb-3">
   <label for="especialidade" class="form-label">Especialidade</label>
-  <input type="text" class="form-control" name="especialidade" placeholder="Digite...">
+  <input type="text" class="form-control" name="especialidade" placeholder="Sua area de especialidade.">
 </div>
 
 <div class="mb-3">
-    <label for="servico" class="form-label">Descrição do seu serviço</label>
-    <textarea class="form-control is-invalid" name="servico" placeholder="Digite o seu texto" required></textarea>
+    <label for="servico" class="form-label">Descrição de seus serviços</label>
+    <textarea class="form-control is-invalid" name="servico" placeholder="Descreva brevemente, os seus serviços." required></textarea>
     <div class="invalid-feedback">
-      Por favor digite a descrição do seu serviço.
+      Descreva brevemente, os seus serviços.
     </div>
   </div>
 
@@ -170,7 +170,7 @@
  </div>
 
  <div class="mb-3">
-<label for="idades" class="form-label">Idades que atende os cliene</label>
+<label for="idades" class="form-label">Faixa etária de atendimento</label>
 <select class="form-select" name="idades" aria-label="Default select example">
 
   <option selected>Selecione uma das opções</option>
@@ -180,6 +180,7 @@
   <option value="20-30">20-30</option>
   <option value="10-20">10-20</option>
   <option value=">0-10">0-10</option>
+  <option value="De todas as idades">De todas as idades</option>
  
 </select>
  </div>
@@ -190,9 +191,9 @@
 <select class="form-select" name="ambiente" aria-label="Default select example">
 
   <option selected>Selecione uma das opções</option>
-  <option value="faço exercios praticados ao ar livre">Os exercios praticados ao ar livre</option>
-  <option value="Os exercios são feitos em aparelho">Os exercios são feitos em aparelho</option>
-  <option value="faço execios no ar livre e em aparelhos">Os exercios no ar livre e em aparelhos</option>
+  <option value="Exercicios ao ar livre">Os exercicios praticados ao ar livre</option>
+  <option value="Exercicios com uso de aparelhos">Os exercicios são feitos com uso de aparelhos</option>
+  <option value="Ambas as opcoes">Ao ar livre e com uso de aparelhos</option>
  
   
 </select>
@@ -201,13 +202,13 @@
 
 
  <div class="mb-3">
-<label for="localatendimento" class="form-label">Local de atendimento</label>
+<label for="localatendimento" class="form-label">Local de Atendimento</label>
 <select class="form-select" name="localatendimento" aria-label="Default select example">
 
   <option selected>Selecione uma das opções</option>
-  <option value="Atendo nas casas dos cliente">Atendo nas casas dos cliente</option>
-  <option value="Só atendo no meu consutorio">Só atendo no meu consutorio</option>
-  <option value="Atendo no meu consutorio e casas dos clietes">Atendo no meu consutorio e casas dos clietes</option>
+  <option value="Vou ate a casa do cliente">Atendimento a domicilio</option>
+  <option value="Possuo espaco para atendimento">Atendimento em local proprio</option>
+  <option value="Atendo em academia, da preferencia do cliente">Atendimento em Academia</option>
  
   
 </select>
@@ -216,12 +217,12 @@
 
 
  <div class="mb-3">
-<label for="especial" class="form-label">Atende pessoas com capacidade fisica especial</label>
+<label for="especial" class="form-label">Atende Pessoas com Dificiencia</label>
 <select class="form-select" name="especial" aria-label="Default select example">
 
   <option selected>Selecione uma das opções</option>
-  <option value="S">SIM</option>
-  <option value="N">NÃO</option>
+  <option value="S">Sim</option>
+  <option value="N">Nao</option>
  
   
 </select>
@@ -229,7 +230,7 @@
 
 
  <div class="col-12">
-    <button type="submit" name="enviar2" class="btn btn-primary">registrar</button>
+    <button type="submit" name="enviar2" class="btn btn-primary">Cadastrar</button>
   </div>
   </form>
 
@@ -239,7 +240,7 @@
 
 
 
-
+<div class="centralizar"><button class="btn btn-primary botao-volta" onclick="window.history.back()">Voltar</button></div>
 
 
 

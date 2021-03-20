@@ -73,26 +73,18 @@ $( function()  {
     <option value="20-30">20-30</option>
     <option value="10-20">10-20</option>
     <option value="1-10">1-10</option>
-    <option value="Atendo todas idades">Atendo todas idades</option>
+    <option value="Atendo todas idades">Todas as Idades</option>
   </select>
    
    </div>
 
-
    <br>
-   <div class="form-group centralizar">
-   
-   <label for="inputCity"  class="form-label">qualificação</label>
+   <div class="form-group centralizar">   
+   <label for="inputCity"  class="form-label">Qualificação</label>
    <br>
-
   <select class="form-select form-select" name="qualificacao" aria-label=".form-select-sm example">
     <option selected>Selecione uma das opções</option>
-    <option value="Fisioterapia">Fisioterapia</option>
     <option value="Educação Física">Educação Física</option>
-    <option value="Quiropraxia">Quiropraxia</option>
-    <option value="Terapia ocupacional">Terapia ocupacional</option>
-    <option value="Saúde Coletiva">Saúde Coletiva</option>
-  
   </select>
    </div>
 
@@ -101,7 +93,7 @@ $( function()  {
    
    <label for="inputCity"  class="form-label">Raio de Atuação</label>
    <br>
-<select class="form-select form-select" name="raio" aria-label=".form-select-sm example">
+  <select class="form-select form-select" name="raio" aria-label=".form-select-sm example">
   <option selected>Selecione uma das opções</option>
   <option value="1000">1000Km</option>
   <option value="500">500km</option>

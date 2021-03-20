@@ -7,16 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" viewport-fit="cover">
     <meta name="msapplication-tap-highlight" content="no">
        
-  
     <!-- Links  -->
-
 
     <link href="css/tl.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     
    <!--   -->
@@ -27,91 +24,79 @@
  
       <!--  NavBar -->
 
-  <nav class="navbar navbar-expand-lg  text-white bg-dark text-white" id="navbarToggleExternalContent">
-  <div class="container-fluid  ">
-  <a class="navbar-brand nav-link disabled text-white" href="index.php"><img id="logohigia" src="img/logo.png"></a>
+  <nav class="navbar navbar-expand-lg  text-white bg-dark navbar-dark text-white" id="navbarToggleExternalContent">
+  <div class="container-fluid">
   
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
-  <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
-  </svg>
+    <span class="navbar-toggler-icon"><img id="logohigia" src="/img/logo.png" width="25" height="35">
     </span>
   </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse centralizar" id="navbarNav">
       <ul class="navbar-nav text-white">
+
         <li class="nav-item">
-          <a href="app/view/login.php" id="btnmenu" class="nav-link text-yellow fs-4 <?php if(basename($_SERVER['PHP_SELF']) == "login.php"){echo "active";}else{echo "";}?>" aria-current="page" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="" viewBox="0 0 16 16">
-  <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
-  <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
-</svg>Login</a>
+          <a href="app/view/login.php" id="btnmenu" class="nav-link text-white fs-4 <?php if(basename($_SERVER['PHP_SELF']) == "login.php"){echo "active";}else{echo "";}?>" aria-current="page" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-door-open" viewBox="0 0 16 16">
+          <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+          <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"/>
+          </svg>Login</a>
         </li>
+
         <li class="nav-item">
-          <a  href="app/view/usuario.php" class="nav-link text-yellow fs-4  <?= (basename($_SERVER['PHP_SELF']) == "index.php")?"active":"";?>" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-</svg>Cadastrar-se</a>
+          <a  href="app/view/usuario.php" class="nav-link text-yellow fs-4  <?= (basename($_SERVER['PHP_SELF']) == "index.php")?"active":"";?>" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" fill="currentColor" class="bi bi-list-check" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+          </svg>Cadastrar-se </a>
         </li>
     
         <li   class="nav-item">
-          <a href="app/view/desenvolvedores.php" class="nav-link text-yellow fs-4  <?= (basename($_SERVER['PHP_SELF']) == "index.php")?"active":"";?>"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
-  <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
-  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+          <a href="app/view/desenvolvedores.php" class="nav-link text-yellow fs-4  <?= (basename($_SERVER['PHP_SELF']) == "index.php")?"active":"";?>">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+  <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+  <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+  <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
 </svg>Contato</a>
         </li></ul>
-      </div>    
+      </div>  
     </div>
+    <div class="centralizar">
     <span id="frasemenu" class="navbar-text">
     DISPOSIÇÃO PARA A SAÚDE
     </span>
+    </div>
     </nav>
-
+    
     <!--   -->
     <div class="centralizar">
-
-
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
   <div class="carousel-item active" data-bs-interval="10000" id="bgvid" >
      
-
-
      <video  playsinline autoplay muted loop   >
    <source src="video/Running - 3599.mp4" type="video/mp4">
        </video>
-
-
      
      </div>
      <div  class="carousel-item" data-bs-interval="10000" id="bgvi"> 
    
        <img src="img/jonathan-borba-kCVZIbOKztI-unsplash.jpg" class="img-fluid" alt="Responsive image">
 
-   
-     
      </div>
      <div  class="carousel-item" data-bs-interval="10000" id="bgv">
        
-      
      <img src="img/jess-eddy-nnsyyS7Of_Q-unsplash.jpg" class="img-fluid" alt="Responsive image">
 
-      
      </div>
 
   </div>
 </div>
 
-
-
-
-
-
-<div class="bgvid">
+<div class="bgvid container-fluid">
+<a class="navbar-brand nav-link disabled text-white centralizar" href="index.php"><img id="logohigia" src="img/logo.png"  width="100" height="125"></a>
   <h1>Sempre pensando na sua saúde.
   </h1>
 </div>
-
-
-
 
   </div>
   
@@ -211,6 +196,8 @@
 </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script sc="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script src="js/index.js"></script>
   
 

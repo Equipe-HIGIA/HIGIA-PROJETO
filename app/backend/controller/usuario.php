@@ -39,7 +39,10 @@ if (isset($_POST['op']) && $_POST['op']=="inc") {
     $usuario->senha = $_POST['senha'];
 
     if ($usuario->valida()) {
-        $_SESSION["usuario"] = $usuario->id;
+       $_SESSION['usuario'] = $usuario->id;
+       //  $_SESSION['usuario'];
+        
+
 
         echo "<script language='javascript' type='text/javascript'>
         window.location.href='../../view/';

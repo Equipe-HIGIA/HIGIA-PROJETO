@@ -11,7 +11,9 @@ $dados->nivel = $_POST['nivel'];
 $dados->medicamentos = $_POST['medicamentos'];
 $dados->Dadc();
 
-
+echo "<script language='javascript' type='text/javascript'>
+window.location.href='../../view/';
+</script>";
 }
 
 ?>

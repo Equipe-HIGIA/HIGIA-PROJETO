@@ -91,10 +91,11 @@
       </select>
     </div>
 
-        <center><button type="clear" class="btn btn-secondary">Limpar</button><button type="submit" class="btn btn-success">Confirmar</button></center>
+        <center><button class="btn btn-primary botao-volta" onclick="window.history.back()">Voltar</button><button type="clear" class="btn btn-secondary">Limpar</button><button type="submit" class="btn btn-success">Confirmar</button></center>
       </form>
 </div>
-<button class="btn btn-primary botao-volta" onclick="window.history.back()">Voltar</button>  </div>
+
+
   
   <!-- Bootstrap core JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>

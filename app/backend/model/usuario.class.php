@@ -19,17 +19,28 @@ class Usuario {
     
 
 function valida() {
-    $sql = "select id from usuario where cpf like :cpf and senha = :senha ";
+      //   $sql = "select id from usuario where cpf like :cpf and senha = :senha ";
+          $sql = "SELECT id, cep FROM usuario WHERE cpf LIKE :cpf AND senha = :senha ";
+ 
     $pdo = new Connection();
     $st = $pdo->prepare($sql);
     $st->bindParam(':cpf',$this->cpf,PDO::PARAM_STR);
     $st->bindParam(':senha',$this->senha,PDO::PARAM_STR);
     $st->execute();
+   
     if ($st->rowCount()==0){
+       
         return false; 
     } else {
-        $r = $st->fetchAll(  );
-        $this->id = reg[0]["id"];
+        $reg = $st->fetchAll();
+     // $reg = $st->fetch();
+        
+        $this->id = $reg[0]["id"];
+    //  $_SESSION['usuario'] =  $reg["id"];
+   //   $_SESSION['usuariocep'] =  $reg["cep"];
+     
+      
+      
         return true;
     }     
    

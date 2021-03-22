@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,37 +10,49 @@
   <style> *{ font-family: "Baloo Tamma 2" !important;}
   
   
+  
   </style>
    
-
    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
   
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
 
 </head>
 <body class="bg-white">
   
+<header>
+
 <?php include 'include/header.php'; ?>
+</header>
+
+<br>
 
 
 
-<br><br>
 
-<div class="card  text-dark">
-  <img src="img/alex-mccarthy-a6FHROHuQ9o-unsplash.jpg" class="card-img" alt="..." style="height: 600px;">
-  <div class="card-img-overlay">
-    <h5 class="card-title fs-1">Card title</h5>
-    <p class="card-text fs-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     </div>
+   <main>
+  
+   
+
+<form class="d-flex" method="GET" action="busca.php">
+
+
+
+ 
+  <input type="text" class="form-control me-4" name="servico" placeholder="pesquisar....">
+
+<div class="m-2">
+<button class="btn btn-outline-success btn-lg" type="submit">Search</button>
 </div>
 
+</form>
 
-<br><br>
+ </main>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-<script src="app.js"></script>
-
-
+<script sc="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </body>
 </html>

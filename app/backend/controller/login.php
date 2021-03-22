@@ -11,6 +11,12 @@ if (isset($_POST['cpf']) && isset($_POST['senha'])) {
     if ($usuario->valida()) {
         $_SESSION["usuario"] = $usuario->id;
 
+       //   $_SESSION['usuario']; 
+      //  $_SESSION['usuariocep'];
+     //   $_SESSION['usuarioendereco'] =   $usuario->endereco;
+    //  $_SESSION['usuarionumero'] =   $usuario->numero;
+    
+      
         echo "<script language='javascript' type='text/javascript'>
         window.location.href='../../view/';
         </script>";

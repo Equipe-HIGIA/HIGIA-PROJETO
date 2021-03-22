@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hígia</title>
+    <title>Hígia - Disposicao para a Saude</title>
 
     <style> *{ font-family: "Baloo Tamma 2" !important;}</style>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
@@ -22,7 +22,7 @@
   <div class="card-header">
     <ul class="nav nav-pills card-header-pills">
     
-    <a>Faça o login agora!</a>
+    <a>Faça o Login</a>
       
     </ul>
   </div>
@@ -37,7 +37,7 @@
   
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">senha</label>
+    <label for="exampleInputPassword1" class="form-label">Senha</label>
     <input type="password" name="senha" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="mb-3 form-check">
@@ -65,20 +65,11 @@ if (isset($_SESSION['usuario']) && $_SESSION['usuario']==0) {
 
 </form>
    
- 
-   
    </div>
+   <button class="btn btn-primary botao-volta" onclick="window.history.back()">Voltar</button>  </div>
 </div>
 
-
-
-
-
 </div>
-
-
-
-
 
 
 <!-- JavaScript Bundle with Popper -->

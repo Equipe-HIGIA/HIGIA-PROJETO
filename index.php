@@ -94,7 +94,7 @@
 
 <div class="bgvid container-fluid">
 <a class="navbar-brand nav-link disabled text-white centralizar" href="index.php"><img id="logohigia" src="img/logo.png"  width="100" height="125"></a>
-  <h1>Sempre pensando na sua saúde.
+  <h1 class="centralizar">Sempre pensando na sua saúde.
   </h1>
 </div>
 

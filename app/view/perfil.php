@@ -23,21 +23,15 @@ session_start();
 </head>
 
 <body class="bg-white">
-<<<<<<< HEAD
 
     <header>
         <?php include 'include/header.php'; ?>
     </header>
     <br><br>
 
-
-
     <main>
 
-
         <div class="container-md">
-
-
 
             <div class="card rounded-3 border-warning shadow-lg mb-3 position-absolute top-50 start-50 translate-middle"
                 style="max-width: 18rem;">
@@ -56,7 +50,6 @@ session_start();
 ?> <br><?php
 echo "ID: ". $_SESSION["usuario"];
 
-
 ?>
 
                             </p>
@@ -66,11 +59,6 @@ echo "ID: ". $_SESSION["usuario"];
                 </div>
             </div>
         </div>
-
-
-      
-
-
 
     </main>
 

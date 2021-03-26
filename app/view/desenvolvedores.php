@@ -32,20 +32,9 @@
                       
                    </p>
                    <a href="#" class="btn">Contato</a>
-                  
                 </div>
     
-                <div class="card">
-                    <img src="/img/vaun0815-lGjzLRmrI1M-unsplash.jpg" alt="card background" class="card-img">
-                <img src="/img/leticia.jpg" alt="profile image" class= "profile-img">
-               <h1>Letícia Velke</h1>
-               <p class="job-title">Programadora</p>
-               <p class="about">
-                Olá, eu sou Letícia Velke.
-               </p>
-               <a href="#" class="btn">Contato</a>
-              
-            </div>
+
             <div class="card">
                 <img src="/img/vaun0815-lGjzLRmrI1M-unsplash.jpg" alt="card background" class="card-img">
             <img src="/img/Jose.jpg" alt="profile image" class= "profile-img">
@@ -55,7 +44,6 @@
            Olá, eu sou o José Higor.
            </p>
            <a href="#" class="btn">Contato</a>
-           
         </div>
 
         <div class="card">
@@ -67,10 +55,10 @@
      Olá, eu sou o Sergio Silva.
      </p>
      <a href="#" class="btn">Contato</a>
-   
   </div>
 
             </div>
+            
         </div>
         <center><button class="btn btn-primary botao-volta centralizar" onclick="window.history.back()">Voltar</button></center>
     </section>

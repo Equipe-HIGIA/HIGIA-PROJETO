@@ -93,8 +93,13 @@
 </div>
 
 <div class="bgvid container-fluid">
+<<<<<<< HEAD
 <a class="navbar-brand nav-link disabled text-white centralizar" href="index.php"><img id="logohigia" src="img/logo.png"  width="125" height="125"></a>
   <h1>Sempre pensando na sua saúde.
+=======
+<a class="navbar-brand nav-link disabled text-white centralizar" href="index.php"><img id="logohigia" src="img/logo.png"  width="100" height="125"></a>
+  <h1 class="centralizar">Sempre pensando na sua saúde.
+>>>>>>> e2cee4840b9de1dec31aeb06196ae21682fed425
   </h1>
 </div>
 

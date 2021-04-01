@@ -9,10 +9,10 @@ if (isset($_POST['cpf']) && isset($_POST['senha'])) {
     $usuario->cpf = $_POST['cpf'];
     $usuario->senha = $_POST['senha'];
     if ($usuario->valida()) {
-        $_SESSION["usuario"] = $usuario->id;
+        //$_SESSION["usuario"] = $usuario->id;
 
-       //   $_SESSION['usuario']; 
-      //  $_SESSION['usuariocep'];
+          $_SESSION['usuario']; 
+        $_SESSION['usuariocep'];
      //   $_SESSION['usuarioendereco'] =   $usuario->endereco;
     //  $_SESSION['usuarionumero'] =   $usuario->numero;
     

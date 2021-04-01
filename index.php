@@ -24,7 +24,7 @@
  
       <!--  NavBar -->
 
-  <nav class="navbar navbar-expand-lg  text-white bg-dark navbar-dark text-white" id="navbarToggleExternalContent">
+  <nav class="navbar navbar-expand-lg  text-white bg-dark navbar-dark text-white  border-bottom shadow-sm mb-5 p-1" id="navbarToggleExternalContent">
   <div class="container-fluid">
   
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,7 +93,7 @@
 </div>
 
 <div class="bgvid container-fluid">
-<a class="navbar-brand nav-link disabled text-white centralizar" href="index.php"><img id="logohigia" src="img/logo.png"  width="100" height="125"></a>
+<a class="navbar-brand nav-link disabled text-white centralizar" href="index.php"><img id="logohigia" src="img/logo.png"  width="125" height="125"></a>
   <h1>Sempre pensando na sua saúde.
   </h1>
 </div>

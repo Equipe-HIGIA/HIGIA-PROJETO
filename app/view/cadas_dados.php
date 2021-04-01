@@ -187,7 +187,7 @@
   <option selected>Selecione uma das opções</option>
   <option value="Exercicios ao ar livre">Os exercicios praticados ao ar livre</option>
   <option value="Exercicios com uso de aparelhos">Os exercicios são feitos com uso de aparelhos</option>
-  <option value="Ambas as opcoes">Ao ar livre e com uso de aparelhos</option>
+  <option value="Ao ar livre e com uso de aparelhos">Ao ar livre e com uso de aparelhos</option>
  
   
 </select>
@@ -215,8 +215,8 @@
 <select class="form-select" name="especial" aria-label="Default select example">
 
   <option selected>Selecione uma das opções</option>
-  <option value="S">Sim</option>
-  <option value="N">Nao</option>
+  <option value="Atendo pessoas com Dificiencia">Sim</option>
+  <option value="Não Atendo pessoas com Dificiencia">Não</option>
  
   
 </select>

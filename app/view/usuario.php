@@ -76,7 +76,7 @@
     </div>
     <div class="mb-3">
       <label for="fixo" class="form-label">Telefone Fixo</label>
-      <input type="text" name="celular" class="form-control telefone"  placeholder="">
+      <input type="text" name="fixo" class="form-control telefone"  placeholder="">
     </div>
     <div class="mb-3">
       <label for="fixo" class="form-label">Email</label>

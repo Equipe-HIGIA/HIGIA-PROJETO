@@ -16,14 +16,13 @@ session_start();
    
    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">  
   
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> 
 
 
 </head>
 
 <body class="bg-white">
-<<<<<<< HEAD
+
 
     <header>
         <?php include 'include/header.php'; ?>
@@ -39,8 +38,7 @@ session_start();
 
 
 
-            <div class="card rounded-3 border-warning shadow-lg mb-3 position-absolute top-50 start-50 translate-middle"
-                style="max-width: 18rem;">
+            <div class="card rounded-3 border-warning shadow-lg mb-3 position-absolute top-50 start-50 translate-middle"style="max-width: 48rem;">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="..." alt="...">
@@ -48,18 +46,20 @@ session_start();
                     <div class="col-md-8">
 
                         <div class="card-body">
-                            <h5 class="card-title">Warning card title</h5>
+                            <h5 class="card-title"><?php  echo"Nome: ". $_SESSION["usuarionome"]; ?></h5>
                             <p class="card-text">
 
                                 <br><?php
    echo "CEP: ". $_SESSION["usuariocep"];
 ?> <br><?php
 echo "ID: ". $_SESSION["usuario"];
-
-
 ?>
-
-                            </p>
+<br><?php
+ echo "Cidade: ". $_SESSION["usuariocidade"];
+    ?><br><?php
+    echo "Endereço: ". $_SESSION["usuarioendereco"];
+       ?>
+                             </p>
                         </div>
                     </div>
 
@@ -67,16 +67,27 @@ echo "ID: ". $_SESSION["usuario"];
             </div>
         </div>
 
-
-      
-
-
+     
 
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
-    </script>
+    <footer>
+    <button class="btn btn-primary position-absolute top-50 end-0 translate-middle-y m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Sistema</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 
 </body>
 

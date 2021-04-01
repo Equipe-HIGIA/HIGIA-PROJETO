@@ -1,24 +1,32 @@
 <?php
 
 
+
 require_once("../backend/db/connection.class.php");
 
 
-$servico = "%".trim($_GET['servico']."%");
+$qualificacao = "%".trim($_GET['qualificacao']."%");
+
+
+$ambiente  = $_GET['ambiente'];
+$localatendimento  = $_GET['localatendimento'];
+$especial  = $_GET['especial'];
 
 
 $pdo = new Connection();
 
-$st = $pdo->prepare('SELECT * FROM profissional WHERE servico LIKE :servico ');
+$st = $pdo->prepare('SELECT * FROM profissional WHERE qualificacao LIKE :qualificacao  AND ambiente = :ambiente AND localatendimento = :localatendimento  AND especial = :especial');
 
-$st->bindParam(':servico', $servico ,PDO::PARAM_STR);
+$st->bindParam(':qualificacao',$qualificacao,PDO::PARAM_STR);
+$st->bindParam(':ambiente',$ambiente,PDO::PARAM_STR);
+$st->bindParam(':especial',$especial,PDO::PARAM_STR);
+$st->bindParam(':localatendimento',$localatendimento,PDO::PARAM_STR);
+        
 
 $st->execute();  
 
 
 $resultados = $st->fetchAll(PDO::FETCH_ASSOC);
-
-
 
 ?>
 
@@ -156,3 +164,4 @@ Contato
 
 </body>
 </html>
+

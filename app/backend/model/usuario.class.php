@@ -20,7 +20,7 @@ class Usuario {
 
 function valida() {
       //   $sql = "select id from usuario where cpf like :cpf and senha = :senha ";
-          $sql = "SELECT id, cep FROM usuario WHERE cpf LIKE :cpf AND senha = :senha ";
+          $sql = "SELECT id, cep, nome, cidade, endereco FROM usuario WHERE cpf LIKE :cpf AND senha = :senha ";
  
     $pdo = new Connection();
     $st = $pdo->prepare($sql);
@@ -32,12 +32,16 @@ function valida() {
        
         return false; 
     } else {
-        $reg = $st->fetchAll();
-     // $reg = $st->fetch();
+        //$reg = $st->fetchAll();
+     $reg = $st->fetch();
         
-        $this->id = $reg[0]["id"];
-    //  $_SESSION['usuario'] =  $reg["id"];
-   //   $_SESSION['usuariocep'] =  $reg["cep"];
+       // $this->id = $reg[0]["id"];
+      $_SESSION['usuario'] =  $reg["id"];
+      $_SESSION['usuariocep'] =  $reg["cep"];
+      $_SESSION['usuarionome'] =  $reg["nome"];
+      $_SESSION['usuariocidade'] =  $reg["cidade"];
+      $_SESSION['usuarioendereco'] =  $reg["endereco"];
+     
      
       
       

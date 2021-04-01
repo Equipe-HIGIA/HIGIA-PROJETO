@@ -13,14 +13,17 @@ class DadosServico{
     public $raio;
     public $idades;
     public $especial;
-    
+  
   
 
 
     function Dads(){
 
-        $s = "insert into profissional(paginas, especialidade, qualificacao, ambiente, grupo, localatendimento, servico, raio, idades, especial) values (:paginas, :especialidade, :qualificacao, :ambiente, :grupo, :localatendimento, :servico, :raio, :idades, :especial)";
         $pdo = new Connection();
+     
+
+        $s = "insert into profissional(paginas, especialidade, qualificacao, ambiente, grupo, localatendimento, servico, raio, idades, especial) values (:paginas, :especialidade, :qualificacao, :ambiente, :grupo, :localatendimento, :servico, :raio, :idades, :especial)";
+        
         $st = $pdo->prepare($s);
         $st->bindParam(':paginas',$this->paginas,PDO::PARAM_STR);
         $st->bindParam(':especialidade',$this->especialidade,PDO::PARAM_STR);
@@ -32,8 +35,9 @@ class DadosServico{
         $st->bindParam(':raio',$this->raio,PDO::PARAM_STR);
         $st->bindParam(':idades',$this->idades,PDO::PARAM_STR);
         $st->bindParam(':especial',$this->especial,PDO::PARAM_STR);
+      
         $st->execute();  
-        echo $pdo->lastInsertId();
+        
     }
     
     

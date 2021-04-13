@@ -47,7 +47,7 @@
                 
                         </div>
                       
-<<<<<<< HEAD
+
                     </div>
 
                     <div class="col-md-4">
@@ -79,34 +79,12 @@
                        </div>
 
                 </div>
-=======
+
                    </p>
-                   <a href="#" class="btn">Contato</a>
                 </div>
     
 
-            <div class="card">
-                <img src="/img/vaun0815-lGjzLRmrI1M-unsplash.jpg" alt="card background" class="card-img">
-            <img src="/img/Jose.jpg" alt="profile image" class= "profile-img">
-           <h1>José Higor</h1>
-           <p class="job-title">Programador</p>
-           <p class="about">
-           Olá, eu sou o José Higor.
-           </p>
-           <a href="#" class="btn">Contato</a>
-        </div>
-
-        <div class="card">
-          <img src="/img/vaun0815-lGjzLRmrI1M-unsplash.jpg" alt="card background" class="card-img">
-      <img src="/img/Sergio.jpg" alt="profile image" class= "profile-img">
-     <h1>Sergio Silva</h1>
-     <p class="job-title">Programador</p>
-     <p class="about">
-     Olá, eu sou o Sergio Silva.
-     </p>
-     <a href="#" class="btn">Contato</a>
-  </div>
->>>>>>> e2cee4840b9de1dec31aeb06196ae21682fed425
+            
 
             </div>
             

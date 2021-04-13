@@ -22,10 +22,6 @@ session_start();
 </head>
 
 <body class="bg-white">
-<<<<<<< HEAD
-
-=======
->>>>>>> e2cee4840b9de1dec31aeb06196ae21682fed425
 
     <header>
         <?php include 'include/header.php'; ?>
@@ -36,17 +32,13 @@ session_start();
 
         <div class="container-md">
 
-<<<<<<< HEAD
+            <div class="card rounded-3 border-warning shadow-lg mb-3 position-absolute top-50 start-50 translate-middle w-75 p-3" style="max-width: 48rem;">
 
+            <div class="card rounded-3 border-warning shadow-lg mb-3 position-absolute top-50 start-50 translate-middle w-auto p-3" style="max-width: 18rem;">
 
-            <div class="card rounded-3 border-warning shadow-lg mb-3 position-absolute top-50 start-50 translate-middle"style="max-width: 48rem;">
-=======
-            <div class="card rounded-3 border-warning shadow-lg mb-3 position-absolute top-50 start-50 translate-middle"
-                style="max-width: 18rem;">
->>>>>>> e2cee4840b9de1dec31aeb06196ae21682fed425
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="..." alt="...">
+                        <!-- <img src="..." alt="..."> -->
                     </div>
                     <div class="col-md-8">
 
@@ -58,10 +50,6 @@ session_start();
    echo "CEP: ". $_SESSION["usuariocep"];
 ?> <br><?php
 echo "ID: ". $_SESSION["usuario"];
-<<<<<<< HEAD
-=======
-
->>>>>>> e2cee4840b9de1dec31aeb06196ae21682fed425
 ?>
 <br><?php
  echo "Cidade: ". $_SESSION["usuariocidade"];
@@ -75,9 +63,6 @@ echo "ID: ". $_SESSION["usuario"];
                 </div>
             </div>
         </div>
-
-<<<<<<< HEAD
-     
 
     </main>
 
@@ -94,10 +79,7 @@ echo "ID: ". $_SESSION["usuario"];
   </div>
 </div>
     </footer>
-
-=======
     </main>
->>>>>>> e2cee4840b9de1dec31aeb06196ae21682fed425
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>

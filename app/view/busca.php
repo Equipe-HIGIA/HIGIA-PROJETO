@@ -28,7 +28,7 @@ $resultados = $st->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HÍGIA</title>
+    <title>HÍGIA - Diposicao para a Saude</title>
 
 
     
@@ -109,7 +109,7 @@ Contato
   <p class="card-text fs-5">
 
       <p>Numeros de pessoa que consegue atender:<br> <?php echo $Resultado['grupo']; ?></p>
-      <p>Raio que consegue atender:<br><?php echo $Resultado['raio']; ?></p>
+      <p>Raio de atendimento:<br><?php echo $Resultado['raio']; ?></p>
       
       </p>
      </div>
@@ -138,7 +138,7 @@ Contato
 }
  else {
 ?>
-<h1 class="fs-1 fw-bolder m-4  text-center position-absolute top-50 start-50 translate-middle">Não foram encontrados resultados pelo termo buscado.</h1>
+<h1 class="fs-1 fw-bolder m-4  text-center position-absolute top-50 start-50 translate-middle">Não foram encontrados resultados de acordo com os termos buscados.</h1>
 <?php
 }
 ?>

@@ -240,19 +240,9 @@ Ver Contato
  </div>
  
  <!-- Button trigger modal -->
- 
- 
- 
+
  
  <!-- Button trigger modal -->
- 
- 
- 
- 
- 
- 
- 
-
 
 </div>
 

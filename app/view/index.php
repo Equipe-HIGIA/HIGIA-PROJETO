@@ -61,11 +61,6 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-     
-
-
-     
-
 
      <div class="mb-3">
   <label for="qualificacao" class="form-label">Qualificação</label>
@@ -112,7 +107,7 @@
  
   
 </select>
- </div>
+</div>
 
 
  <div class="me-2">
@@ -129,18 +124,14 @@
   </div>
 </div>
 
-<h1 class="fs-1 fw-bolder m-4  text-center position-absolute top-50 start-50 translate-middle">Pesquise Algo do seu interrese.</h1>
+<h1 class="fs-1 fw-bolder m-4  text-center position-absolute top-50 start-50 translate-middle">Pesquise pelo profissional de seu interrese.</h1>
 
-
-
- </main>
+</main>
 
 <br><br>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <script sc="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-
-
 
 </body>
 </html>
